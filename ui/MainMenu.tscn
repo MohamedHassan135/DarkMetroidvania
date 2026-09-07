@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="MainMenu" type="CanvasLayer"]
+
+[node name="VBox" type="VBoxContainer" parent="MainMenu"]
+anchor_left = 0.3
+anchor_top = 0.2
+anchor_right = 0.7
+anchor_bottom = 0.6
+
+[node name="Title" type="Label" parent="VBox"]
+text = "DarkMetroidvania"
+
+[node name="NewGame" type="Button" parent="VBox"]
+text = "New Game"
+
+[node name="Continue" type="Button" parent="VBox"]
+text = "Continue"
+
+[node name="Settings" type="Button" parent="VBox"]
+text = "Settings"
+
+[node name="Quit" type="Button" parent="VBox"]
+text = "Quit"
