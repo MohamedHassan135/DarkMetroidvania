@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://scripts/HUD.gd" type="Script" id=1]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="HealthLabel" type="Label" parent="HUD"]
+text = "HP: 10"
+margin_left = 12
+margin_top = 12
+
+[node name="CurrencyLabel" type="Label" parent="HUD"]
+text = "Gold: 0"
+margin_left = 12
+margin_top = 36

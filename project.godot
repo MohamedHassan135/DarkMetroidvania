@@ -1,0 +1,10 @@
+[application]
+config/version=4
+
+[project]
+name="DarkMetroidvania"
+config_version=4
+
+[rendering]
+quality/driver/driver="GLES3"
+
